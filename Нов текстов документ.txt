@@ -1,0 +1,21 @@
+class Student : Person
+{
+    private int classNumber;
+    public int ClassNumber
+    {
+        get
+        {
+            return this.classNumber;
+        }
+        set
+        {
+            this.ClassNumber = value;
+        }
+    }
+    public Student(int number) : base(name, details)
+    {
+        this.ClassNumber = number;
+    }
+{
+    Console.WriteLine($"I am <name> and <number> in class off <details>");
+}
